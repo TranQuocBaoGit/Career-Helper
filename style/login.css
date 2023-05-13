@@ -1,0 +1,26 @@
+.main-board{
+    width: 500px; 
+    margin: 75px auto; 
+    border: 1px solid #3336a3; 
+    border-radius: 10px; 
+    padding: 2% 5%;
+}
+.form-control{
+    border: 1px solid #c3c4e8;
+}
+.button{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    color: #040acf;
+    margin: 0.5rem auto; 
+    border: 1px solid #3336a3; 
+    border-radius: 5px; 
+    background-color: #f0f0f5;
+}
+.have-account{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+
+}

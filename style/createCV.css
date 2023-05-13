@@ -1,0 +1,40 @@
+body{
+    background-color: #dddddd;
+}
+.head{
+    /* margin: auto; */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0 0 5px #888888;
+}
+.head div input{
+    border: 1px solid black;
+    box-shadow: 0 0 1px #888888;
+}
+.cv-form, .structure{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #888888;
+    margin-bottom: 2rem;
+}
+.structure div textarea, .structure div input{
+    border: 1px solid #797979;
+    box-shadow: 0 0 1px #888888;
+}
+.second-h{
+    color: #797979;
+}
+.add-button{
+    margin-left: 25%;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #a6ffb3;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid #797979;
+    box-shadow: 0 0 1px #888888;
+}

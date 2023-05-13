@@ -1,0 +1,19 @@
+#header{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+}
+body{
+    background-color: #ebffee;
+}
+.button a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+.button a:hover{
+    color: #1bcd00;
+    border-radius: 10px;
+}
