@@ -1,0 +1,61 @@
+.head{
+    /* margin: auto; */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0 0 5px #888888;
+}
+.cv-form, .structure{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #888888;
+    margin-bottom: 2rem;
+}
+.cv-form h2{
+    width: fit-content;
+    margin: auto;
+}
+.cv-form h4{
+    color:#007b0c;
+    font-weight: bold;
+}
+.cv-form .img{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 5rem;
+}
+.userInfo .title, .cvInfo .title{
+    color:#004207;
+    font-weight:bold; 
+    margin-right:0.5rem;
+    /* margin-left:2rem; */
+    width: fit-content;
+    margin-bottom: 0;
+}
+.userInfo{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.careerGoal{
+    word-wrap: break-word;
+    width:90%;
+}
+.skillList{
+    display: flex;  
+    flex-wrap: wrap;
+}
+/* .skillList p{
+    width: 20%;
+    margin: 0.5rem 2.5%;
+} */
+.structure{
+    display: flex;  
+    flex-wrap: wrap;
+}

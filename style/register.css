@@ -1,0 +1,17 @@
+.button{
+    height: 40px;
+    width: 100%; 
+    margin: 0.5rem auto; 
+    margin-top:1rem; 
+    color: #040acf; 
+    border: 1px solid #3336a3; 
+    border-radius: 5px; 
+    background-color: #f0f0f5;
+}
+.val-error{
+    color: red;
+    font-size: 2rem;
+}
+input{
+    border: 1px solid #c3c4e8;
+}

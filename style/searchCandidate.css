@@ -1,0 +1,84 @@
+.manageCV{
+    background-color: white;
+    height: 350px;
+    box-shadow: 0 0 5px #888888;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+.option{
+    display: flex;
+    width: 100%;
+}
+.option a{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px;
+    width: fit-content;
+    height: 50px;
+    background-color: #00c30a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.yourCV{
+    display: flex;
+    flex-wrap: wrap;
+}
+.eachCV{
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 28%;
+    border: 0.5px solid #4a4a4a;
+    /* box-shadow: 0 0 5px #888888; */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+.eachCV p{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    /* margin-bottom: 0; */
+    height: 15%;
+    word-break: normal;
+}
+.eachCV div{
+    height: 10%;
+    max-height: fit-content;
+}
+.eachCV div p{
+    height: 40%;
+    margin-bottom: 5%;
+    /* line-height: 0; */
+}
+.eachCV a{
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    padding: 2px 0;
+    color: rgb(255, 255, 255);
+    background-color: #00c30a;
+    box-shadow: 0 0 2px #888888;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.eachCV .img{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.cvName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

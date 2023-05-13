@@ -1,0 +1,81 @@
+h2{
+    margin: auto;
+}
+.manageCV{
+    background-color: white;
+    height: 400px;
+    box-shadow: 0 0 5px #888888;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+.option{
+    display: flex;
+    width: 100%;
+}
+.option a{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px;
+    width: fit-content;
+    height: 50px;
+    background-color: #00c30a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.yourCV{
+    display: flex;
+}
+.eachCV{
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 25%;
+    border: 0.5px solid #4a4a4a;
+    /* box-shadow: 0 0 5px #888888; */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.eachCV p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.eachCV .detail{
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    left: 10%;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 5px 0;
+    color: rgb(255, 255, 255);
+    background-color: #00c30a;
+    box-shadow: 0 0 2px #888888;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.eachCV .img{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.delete{
+    background-color: #c30000;
+    border: none;
+    box-shadow: 0 0 2px #888888;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: -17%;
+    height: 2rem;
+    width: 2rem;
+}
